@@ -160,6 +160,7 @@ body {
     color: var(--main-white);
     margin-bottom: 30px;
     max-width: 696px;
+    letter-spacing: 0.06em;
 }
 
 .button-service {
@@ -251,6 +252,11 @@ body {
     gap: 30px;
 }
 
+.team-member-position {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-member {
     background: var(--main-white);
     width: 270px;
@@ -264,7 +270,6 @@ body {
     line-height: 1.19;
     text-align: center;
 
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -274,8 +279,6 @@ body {
     text-align: center;
     
     color: var(--text-gray);
-
-    margin-bottom: 30px;
 }
 
 /* Футер */
@@ -285,7 +288,9 @@ footer {
 }
 
 .footer {
-    height: 252px;
+    max-height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-position {
@@ -301,7 +306,6 @@ footer {
     color: var(--main-white);
     text-decoration: none;
 
-    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -386,16 +390,18 @@ footer {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
 }
 
 .example-text {
     font-size: 16px;
     line-height: 1.88;
-    margin-bottom: 20px;
-    margin-left: 24px;
 
     color: var(--text-gray);
+}
+
+.example-card-position {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 24px;
 }
